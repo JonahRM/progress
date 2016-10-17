@@ -34,6 +34,9 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ER-Lr-ZrP">
                                         <state key="normal" title="Set Default Label Text"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z7P-n3-MlD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -50,8 +53,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="nameTextField" destination="zyB-oc-jJZ" id="hV7-qR-RMn"/>
                         <outlet property="thoughtsNameLabel" destination="iMC-Fl-hh1" id="JDU-qQ-ejO"/>
+                        <outlet property="thoughtsTextField" destination="zyB-oc-jJZ" id="JAD-If-TAA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
